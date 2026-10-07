@@ -1,0 +1,52 @@
+window.PRODUCTS = [
+  {
+    "id": "أعلام",
+    "name": "أعلام",
+    "folder": "أعلام",
+    "images": [
+      "IMG_20261006_195517.png"
+    ],
+    "description": "بسهيت التعديلات البرمجية. الآن سأتحقق في المتصفح من 4 نقاط تحديداً: الخط من الملف المحلي، ثبات البار العلوي، ظهور زخارف`elements1` ، ورسالة الوصف داخل نافذة المنتج.\n\nRan 2 commands, Used browser\n\nالمعاينة أكدت أن الشعار والنص بعد الافتتاحية أزيلا من الصفحة الرئيسية، ولم يبقَ إلا البار العلوي كما طلبت. سأفتح بطاقة منتج الآن لأتأكد من سلوك الوصف داخ",
+    "descriptionFile": "Text Document جديد.txt"
+  },
+  {
+    "id": "كرت 8.5  5.5",
+    "name": "كرت 8.5  5.5",
+    "folder": "كرت 8.5  5.5",
+    "images": [
+      "IMG_20261006_195311.png"
+    ],
+    "description": "",
+    "descriptionFile": "Text Document جديد.txt"
+  },
+  {
+    "id": "كرت 9 5",
+    "name": "كرت 9 5",
+    "folder": "كرت 9 5",
+    "images": [
+      "IMG_20261006_195249.png"
+    ],
+    "description": "حلهكمتيناغلئسشيثقتاغرنلمىاكظاعمسفقاشلشثساغتيبنغيعغتفقاشثقسفيقبنعهبيفتقساغفلشثقسءياغتنعبغتغقافثئاقسفءيؤبنغعبرعفا",
+    "descriptionFile": "Text Document جديد.txt"
+  },
+  {
+    "id": "كوب",
+    "name": "كوب",
+    "folder": "كوب",
+    "images": [
+      "IMG_20261006_195413.png"
+    ],
+    "description": "",
+    "descriptionFile": "Text Document جديد.txt"
+  },
+  {
+    "id": "منشور A4",
+    "name": "منشور A4",
+    "folder": "منشور A4",
+    "images": [
+      "IMG_20261006_195348.png"
+    ],
+    "description": "",
+    "descriptionFile": "Text Document جديد.txt"
+  }
+];
