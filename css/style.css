@@ -496,9 +496,9 @@ body {
 .social-glass-button {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 12px 18px;
-    border-radius: 999px;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 50%;
     text-decoration: none;
     color: #ffffff;
     background: linear-gradient(180deg, rgba(255, 70, 70, 0.36) 0%, rgba(133, 0, 0, 0.5) 100%);
@@ -531,8 +531,7 @@ body {
 }
 
 .social-label {
-    font-size: 1rem;
-    font-weight: 500;
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -604,11 +603,9 @@ body {
     }
 
     .social-glass-button {
-        flex: 1 1 0;
-        min-width: 0;
+        flex: 0 0 auto;
         justify-content: center;
-        gap: 6px;
-        padding: 8px 6px;
+        padding: 10px;
     }
 
     .social-glass-button:hover {
@@ -625,11 +622,6 @@ body {
         width: 15px;
         height: 15px;
     }
-
-    .social-label {
-        font-size: 0.78rem;
-        white-space: nowrap;
-    }
 }
 
 @media (max-width: 360px) {
@@ -639,16 +631,11 @@ body {
     }
 
     .social-glass-button {
-        gap: 5px;
-        padding: 7px 4px;
+        padding: 8px;
     }
 
     .social-icon {
         width: 26px;
         height: 26px;
-    }
-
-    .social-label {
-        font-size: 0.7rem;
     }
 }
