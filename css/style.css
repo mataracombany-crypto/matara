@@ -592,17 +592,63 @@ body {
     }
 
     .social-floating-bar {
-        right: 20px;
-        left: 20px;
-        bottom: 18px;
+        right: 12px;
+        left: 12px;
+        bottom: 12px;
         transform: none;
         justify-content: center;
-        flex-wrap: wrap;
-        border-radius: 24px;
+        flex-wrap: nowrap;
+        gap: 8px;
+        padding: 8px 10px;
+        border-radius: 999px;
     }
 
     .social-glass-button {
-        flex: 1 1 140px;
+        flex: 1 1 0;
+        min-width: 0;
         justify-content: center;
+        gap: 6px;
+        padding: 8px 6px;
+    }
+
+    .social-glass-button:hover {
+        transform: none;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+    }
+
+    .social-icon svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .social-label {
+        font-size: 0.78rem;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 360px) {
+    .social-floating-bar {
+        gap: 6px;
+        padding: 7px 8px;
+    }
+
+    .social-glass-button {
+        gap: 5px;
+        padding: 7px 4px;
+    }
+
+    .social-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .social-label {
+        font-size: 0.7rem;
     }
 }
